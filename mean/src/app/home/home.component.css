@@ -1,0 +1,41 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://i.pinimg.com/originals/0d/19/eb/0d19eb9a45115590ef42eeb6a6a51b37.jpg');
+  min-height: 50rem;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+body {
+  background-image:url('../../assets/bg.png');
+  background-repeat:repeat;
+}
+p {
+  margin: 0 0 20px;
+}
+.navbar {
+  background-image:url('../../assets/bg.png');
+  background-repeat:repeat;
+}
+.jumbotron {
+  background-color: transparent;
+  padding: 70px 0 0 0;
+}
+.footer {
+  margin-top: 40px;
+  padding: 40px 0;
+}
+.event {
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 30px;
+}
+.event + .event {
+  padding-top: 30px;
+}
+.event .date {
+  margin-bottom: 7px;
+  color: #2a6496;
+}
